@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
   <body>
-    <center><h1>GitHosts</h1></center>
+    <center><h1>GitHosts</h1></center><br>
+    <center><img src="resources/img/smile.svg.png"><center>
   </body>
 </html>
