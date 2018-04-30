@@ -13,6 +13,14 @@ $klein->respond('/', function ($request, $response, $service) {
     $service->render('views/home.php');
 });
 
+$klein->respond('/home', function ($request, $response, $service) {
+    // add some data to the view.
+    $service->pageTitle = 'Home page';
+    // This is the function that renders the view inside the layout.
+    $service->render('views/home.php');
+});
+
+
 
 // About page view
 $klein->respond('/about', function ($request, $response, $service) {
