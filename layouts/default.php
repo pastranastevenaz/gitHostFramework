@@ -6,14 +6,18 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>GitHosts</title>
   <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <center><h1>GitHosts</h1></center><br>
-    <center><img src="resources/img/smile.svg.png"></center>
 
+      <?= $this->partial('partials/header.php'); ?>
 
+      <section role="main">
+          <?= $this->yieldView(); ?>
+      </section>
 
-
+      <?= $this->partial('partials/footer.php'); ?>
 
 
       <!-- Latest compiled and minified CSS -->

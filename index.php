@@ -1,5 +1,13 @@
 <?php
-$query = require 'bootstrap.php';
+require 'vendor/autoload.php';
+$query = require 'core/bootstrap.php';
 
-require 'index.view.php';
+
+
+
+$klein = new \Klein\Klein();
+
+require 'routes.php';
+
+
  ?>
