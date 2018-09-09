@@ -1,3 +1,6 @@
 # GitHosts Framework
 
-Created by Steven Pastrana (www.stevenanton.io), and William Sullivan
+Created by Steven Pastrana 
+
+### Dependencies
+1 Klein | Routing
